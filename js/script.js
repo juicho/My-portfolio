@@ -10,6 +10,17 @@ var typed = new Typed(".typing-2",{
     backSpeed:80,
 });
 
+//Show/hide nav menu
+const navBars= document.querySelector('.fa-bars');
+const navmenu = document.querySelector('.nav-menu');
+
+navBars.addEventListener('click', ()=>{
+    navmenu.classList.toggle("active");
+
+})
+
+
+
 
 
     
